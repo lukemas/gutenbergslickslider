@@ -1,0 +1,70 @@
+.slider {
+    padding: 0 0 5px;
+}
+
+.slider.is-admin:before {
+    display: block;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+    position: absolute;
+    z-index: 1;
+}
+.slides {
+    position:relative;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.image-header {
+    position: absolute;
+    width: 332px;
+    text-align: center;
+    bottom: 160px;
+    height: 88px;
+    padding: 0px 28px;
+}
+
+.image-header h3 {
+    font-size: 20px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.image-subheader {
+    position: absolute;
+    top: 29%;
+    width: 332px;
+    padding: 0px 28px;
+    text-align: center;
+
+}
+    
+    .image-subheader h3 {
+    font-family: Rubik;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    }
+
+    .divider {
+        height:40px;
+    }
+
+    .slick-slide img {
+        display: inline-flex;
+    }
+
+    .slick-slide img {
+        width: 328px !important;
+    }
